@@ -16,7 +16,7 @@ public class IshchiController {
 
     @Autowired
     IshchiService ishchiService;
-
+//20031706
     @PostMapping("/kiritish")
     public HttpEntity<?> IshchiMalumotlari(@RequestBody IshchiDto ishchiDto){
         ApiResponse apiResponse=ishchiService.PostIshchi(ishchiDto);
